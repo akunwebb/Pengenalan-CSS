@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.hero-section {
+    background-image: url('images/foto.jpg'); /* FIX: pakai path relatif */
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    
+    display: flex;
+    align-items: flex-end; /* posisi ke bawah */
+    padding: 50px;
+}
+
+.transparent-box {
+    background-color: rgba(0, 0, 0, 0.6); /* transparan */
+    color: white;
+    padding: 20px 40px;
+    border-left: 5px solid #3ea3e6;
+}
+
+.transparent-box h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.transparent-box p {
+    margin: 0;
+    font-size: 16px;
+}
